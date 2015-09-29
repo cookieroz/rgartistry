@@ -1140,6 +1140,31 @@ a.orange-btn:hover {
   line-height: 1.5em;
 }
 
+/* Under contstruction styles */
+.under-construction {
+  margin: 0 auto;
+  padding: 5%;
+  text-align: center;
+}
+
+.under-construction p {
+  padding: 5% 5% 2% 5%;
+}
+
+.under-construction .social-media-squares {
+  overflow: hidden;
+}
+
+.under-construction .social-media-squares a {
+  border: none;
+  display: inline;
+  font-size: 3em;
+  float: none;
+  height: auto;
+  text-indent: 0.5em;
+  width: auto;
+}
+
 /* Footer styles */
 .site-footer {
   background-color: #343434;
@@ -1459,6 +1484,5 @@ ul.footer-sections {
     padding-left: 1.7em;
   }
 }
-
 
 
