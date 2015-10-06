@@ -41,7 +41,7 @@
 			<nav id="site-navigation" class="main-navigation" role="navigation">
 				<div class="mobile-menu">Menu</div>
 				<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
-				<span class="call-us">Call/Text: <a href="tel:+18184717492">(818) 471-7492</a></span>
+				<span class="call-us"><a href="tel:+18184717492"><i class="fa fa-mobile-phone"></i> (818) 471-7492</a></span>
 			</nav><!-- #site-navigation -->
 		</div>
 	</header><!-- #masthead -->

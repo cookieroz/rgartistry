@@ -233,6 +233,13 @@ function spider_extensions($current_plugin = '') {
 					'description' => 'The Form Maker Dropbox Integration addon is extending the Form Maker capabilities allowing to store the form attachments straight to your Dropbox account.',
 					'icon'        => '',
 					'image'       => plugins_url( '../assets/dropbox-integration-update.png', __FILE__ ),
+				),
+				'gdrive_integration' => array(
+					'name'        => 'Google Drive Integration',
+					'url'         => 'https://web-dorado.com/products/wordpress-form/add-ons/google-drive.html',
+					'description' => 'The Google Drive Integration add-on integrates Form Maker with Google Drive and allows you to send the file uploads to the Google Drive.',
+					'icon'        => '',
+					'image'       => plugins_url( '../assets/google_drive_integration.png', __FILE__ ),
 				)
 			)
 		);
